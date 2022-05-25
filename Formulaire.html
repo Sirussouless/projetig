@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>formulaire</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="aqua">
+	<fieldset style="border:4px black solid"><legend>Formulaire</legend>
+	<form enctype="multipart/form-data" class="well">
+		<fieldset style="border:4px black dotted" ><legend>Etat civil</legend>
+		<br><label  >Nom:</label><input class="form-control" type="text" placeholder="Nom"><br>
+		<br><label >Prénom:</label><input class="form-control" type="text" placeholder="Prénom"><br>
+		</fieldset >
+		<fieldset style="border:4px black solid"><legend>Profil</legend>
+		<br><label >Email:</label><input class="form-control" type="Email" placeholder="email"><br>
+		<br><label >Mot de passe:</label><input class="form-control" type="password" placeholder="Mot de passe"><br>
+		<br><label >Photo:</label><input class="form-control" type="file"  placeholder="Choisir photo"><br>
+		</fieldset>
+		<br><h3>Sexe:</h3>
+			<br>
+			<br><input type="radio" name="Sexe"><label>Homme</label>
+		    <br><input type="radio" name="Sexe"><label>Femme</label><br>
+	    <br><label><H3>Pays d'origine</H3></label>
+		<select name="pays" id="pays">
+			<option value="Afrique du sud">Afrique du sud</option>
+			<option value="Algérie">Algérie</option>
+			<option value="Bénin">Bénin</option>
+	        <option value="Botswana">Botswana</option>
+	        <option value="Burkina Faso">Burkina Faso</option>
+	        <option value="Burundi">Burundi</option>
+	        <option value="Cameroun">Cameroun</option>
+	        <option value="Egypte">Egypte</option>
+	        <option value="Togo">Togo</option>
+	        <option value="Cap Vert">Cap Vert</option>
+	        <option value="RDC">RDC</option>
+	        <option value="Guinée Bissau">Guinée Bissau</option>
+	        <option value="Ghana">Ghana</option>
+	        <option value="Comores">Comores</option>
+	        <option value="Angola">Angola</option>
+	        <option value="Nigéria">Nigéria</option>
+	        <option value="Niger">Niger</option>
+	        <option value="Erythrée">Erythrée</option>
+	        <option value="Zimbabwe">Zimbabwe</option>
+	        <option value="Guinée équatoriale">Guinée équatoriale</option>
+	        <option value="Somalie">Somalie</option>
+	        <option value="Liberia">Liberia</option>
+	        <option value="Mozambique">Mozambique</option>
+	        <option value="RC">RC</option>
+	        <option value="Cote d'ivoire">Cote d'ivoire</option>
+	        <option value="Gambie">Gambie</option>
+	        <option value="Guinée">Guinée</option>
+	        <option value="Mali">Mali</option>
+	        <option value="Siérra-liéon">Siérra-liéon</option>
+	        <option value="Cobo verde">Cobo verde</option>
+	    </select>
+			<br><h3>Passe-temps préférés</h3>
+			<input type="checkbox"><label>Musique</label>
+			<br><input type="checkbox"><label>Football</label>
+			<br><input type="checkbox"><label>Basketball</label>
+			<br><input type="checkbox"><label>Progammation</label><br>
+			<input type="button" value="Quitter"><input type="submit"/> <input type="button" value="Effacer">
+			</fieldset>
+	</form>
+	</body>
+
+</html>
